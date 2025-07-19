@@ -78,5 +78,5 @@ brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask
 #### Terminal
 
 ```shell
-brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop  
+brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop
 ```
