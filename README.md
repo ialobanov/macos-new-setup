@@ -1,5 +1,15 @@
 # macos-new-setup
 
+## Hostname
+
+```shell
+sudo scutil --set ComputerName MACMINI
+```
+
+```shell
+sudo scutil --set HostName MACMINI
+```
+
 ## Setup Brew and zsh
 
 #### Brew
