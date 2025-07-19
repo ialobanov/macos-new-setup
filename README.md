@@ -62,7 +62,6 @@ alias g='git '
 alias gst='git status'
 alias gll='git pull && clear'
 alias gsh='git add . && git commit -m "." && git push && clear'
-alias glog='git log --oneline --graph' # Visual, compact git log
 alias cle='clear'
 alias bat='bat --theme=TwoDark '
 ```
