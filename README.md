@@ -12,8 +12,6 @@ sudo scutil --set HostName MACMINI
 
 ## Software installation
 
-## Setup Brew
-
 #### Brew
 
 ```shell
