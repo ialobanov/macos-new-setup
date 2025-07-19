@@ -72,7 +72,7 @@ alias bat='bat --theme=TwoDark '
 #### Cask
 
 ```shell
-brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask telegram-desktop --cask obsidian --cask thunderbird --cask visual-studio-code --cask iina 
+brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask telegram-desktop --cask obsidian --cask thunderbird --cask visual-studio-code --cask iina --cask anydesk --cask stats --cask qbittorrent
 ```
 
 #### Terminal
