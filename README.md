@@ -10,16 +10,14 @@ sudo scutil --set ComputerName MACMINI
 sudo scutil --set HostName MACMINI
 ```
 
-## Setup Brew and zsh
+## Software installation
+
+## Setup Brew
 
 #### Brew
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-```shell
-touch /Users/$USER/.zprofile && echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile && eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 #### .zprofile
@@ -36,7 +34,23 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export SSH_AUTH_SOCK=/Users/$USER/.bitwarden-ssh-agent.sock
 ```
 
-#### .zshrc
+```shell
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+#### Terminal apps
+
+```shell
+brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop
+```
+
+#### Cask apps
+
+```shell
+brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask telegram-desktop --cask obsidian --cask thunderbird --cask visual-studio-code --cask iina --cask anydesk --cask stats --cask qbittorrent
+```
+
+## Setup zsh
 
 ```shell
 sudo chmod go-w /opt/homebrew/share/zsh/site-functions && sudo chmod go-w /opt/homebrew/share && vim ~/.zshrc
@@ -76,16 +90,7 @@ alias cle='clear'
 alias bat='bat --theme=TwoDark '
 ```
 
-## Software installation
 
-#### Cask
 
-```shell
-brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask telegram-desktop --cask obsidian --cask thunderbird --cask visual-studio-code --cask iina --cask anydesk --cask stats --cask qbittorrent
-```
 
-#### Terminal
 
-```shell
-brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop
-```
