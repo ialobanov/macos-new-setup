@@ -89,13 +89,13 @@ alias bat='bat --theme=TwoDark '
 ```
 
 ```shell
-source 
+source $HOME/.zshrc && touch .hushlogin
 ```
 
 ## Git
 
 ```shell
-vim $HOME/.gitconfig $HOME/.zshrc && touch .hushlogin
+vim $HOME/.gitconfig
 ```
 
 ```properties
