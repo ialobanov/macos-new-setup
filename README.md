@@ -102,7 +102,7 @@ vim $HOME/.gitconfig
     # autocrlf = true # windows
     # autocrlf = input # unix
     editor = nvim
-    #sshCommand = C:/Windows/System32/OpenSSH/ssh.exe # for windows
+    # sshCommand = C:/Windows/System32/OpenSSH/ssh.exe # for windows
 
 [alias]
     # Базовые сокращения
