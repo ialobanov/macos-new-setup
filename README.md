@@ -51,7 +51,7 @@ brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask
 ## Setup zsh
 
 ```shell
-sudo chmod go-w /opt/homebrew/share/zsh/site-functions && sudo chmod go-w /opt/homebrew/share && vim ~/.zshrc
+sudo chmod go-w /opt/homebrew/share/zsh/site-functions && sudo chmod go-w /opt/homebrew/share && vim $HOME/.zshrc
 ```
 
 ```shell
@@ -87,10 +87,15 @@ alias gsh='git add . && git commit -m "." && git push && clear'
 alias cle='clear'
 alias bat='bat --theme=TwoDark '
 ```
+
+```shell
+source 
+```
+
 ## Git
 
 ```shell
-vim $HOME/.gitconfig
+vim $HOME/.gitconfig $HOME/.zshrc && touch .hushlogin
 ```
 
 ```properties
