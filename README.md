@@ -110,11 +110,7 @@ vim $HOME/.gitconfig
     cho = checkout
     cm = commit
     br = branch
-
-    # Более красивый и информативный лог
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-
-    # Показать последние изменения в ветке
     last = log -1 HEAD
 
 [init]
