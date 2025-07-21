@@ -105,9 +105,7 @@ vim $HOME/.gitconfig
     # sshCommand = C:/Windows/System32/OpenSSH/ssh.exe # for windows
 
 [alias]
-    # Базовые сокращения
-    st = status
-    cho = checkout
+    che = checkout
     cm = commit
     br = branch
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
