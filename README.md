@@ -87,8 +87,78 @@ alias gsh='git add . && git commit -m "." && git push && clear'
 alias cle='clear'
 alias bat='bat --theme=TwoDark '
 ```
+## Git
 
+```shell
+vim $HOME/.gitconfig
+```
 
+```properties
+[user]
+    name = ialobanov
+    email = ivan.a.lobanov@gmail.com
 
+[core]
+    # autocrlf = true # windows
+    # autocrlf = input # unix
+    editor = nvim
+    #sshCommand = C:/Windows/System32/OpenSSH/ssh.exe # for windows
+
+[alias]
+    # Базовые сокращения
+    st = status
+    cho = checkout
+    cm = commit
+    br = branch
+
+    # Более красивый и информативный лог
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    # Показать последние изменения в ветке
+    last = log -1 HEAD
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = true
+
+[fetch]
+    prune = true
+
+[includeIf "gitdir:/Users/ivan/solidsoft/"]
+    path = /Users/ivan/.gitconfig-work
+```
+
+```shell
+git config --list --global
+```
+
+#### Work
+
+```shell
+vim /Users/ivan/.gitconfig-work
+```
+
+```properties
+[user]
+    name = Ivan Lobanov
+    email = ivan.lobanov@solidlab.ru
+
+[core]
+    # autocrlf = true # windows
+    # autocrlf = input # unix
+    editor = nvim
+```
+
+#### Obsidian vault
+
+```shell
+mkdir $HOME/personal-vault
+```
+
+```shell
+git clone git@github.com:ialobanov/obsidian-vault.git $HOME/personal-vault
+```
 
 
