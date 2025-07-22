@@ -1,5 +1,14 @@
 # macos-new-setup
 
+## Sudo without password
+
+```bash
+sudo tee /etc/sudoers.d/$USER <<EOF
+$USER ALL=(ALL) NOPASSWD: ALL
+EOF
+sudo chmod 0440 /etc/sudoers.d/$USER
+```
+
 ## Hostname
 
 ```shell
@@ -39,7 +48,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 #### Terminal apps
 
 ```shell
-brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop
+brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop ansible ansible-lint
 ```
 
 #### Cask apps
