@@ -161,9 +161,7 @@ vim /Users/ivan/.gitconfig-work
 ```shell
 mkdir $HOME/personal-vault
 ```
-
+``
 ```shell
-git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
+git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-my
 ```
-
-
