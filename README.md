@@ -163,7 +163,7 @@ mkdir $HOME/personal-vault
 ```
 
 ```shell
-git clone git@github.com:ialobanov/obsidian-vault.git $HOME/personal-vault
+git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 ```
 
 
