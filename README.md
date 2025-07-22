@@ -113,10 +113,8 @@ vim $HOME/.gitconfig
     email = ivan.a.lobanov@gmail.com
 
 [core]
-    # autocrlf = true # windows
-    # autocrlf = input # unix
+    autocrlf = input # unix
     editor = nvim
-    # sshCommand = C:/Windows/System32/OpenSSH/ssh.exe # for windows
 
 [alias]
     che = checkout
@@ -154,8 +152,7 @@ vim /Users/ivan/.gitconfig-work
     email = ivan.lobanov@solidlab.ru
 
 [core]
-    # autocrlf = true # windows
-    # autocrlf = input # unix
+    autocrlf = input # unix
     editor = nvim
 ```
 
