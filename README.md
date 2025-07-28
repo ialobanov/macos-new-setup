@@ -169,5 +169,5 @@ mkdir $HOME/personal-vault
 ```
 ``
 ```shell
-git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-my
+git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-prsnl
 ```
