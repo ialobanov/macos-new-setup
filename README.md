@@ -32,6 +32,7 @@ eval "\$(/opt/homebrew/bin/brew shellenv)"
 
 ## set up ssh agent for Bitwarden
 export SSH_AUTH_SOCK=/Users/$USER/.bitwarden-ssh-agent.sock
+
 EOF
 ```
 
