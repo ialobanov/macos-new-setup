@@ -55,6 +55,8 @@ brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop ansible ans
 brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask telegram-desktop --cask obsidian --cask thunderbird --cask visual-studio-code --cask iina --cask anydesk --cask stats --cask qbittorrent --cask tunnelblick --cask shottr --cask bruno --cask zed
 ```
 
+Logout.
+
 ## Setup zsh
 
 ```shell
