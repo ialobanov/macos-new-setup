@@ -6,17 +6,13 @@
 sudo tee /etc/sudoers.d/$USER <<EOF
 $USER ALL=(ALL) NOPASSWD: ALL
 EOF
-sudo chmod 0440 /etc/sudoers.d/$USER
+sudo chmod 0440 /etc/sudoers.d/$USER && sudo visudo -c
 ```
 
 ## Hostname
 
 ```shell
-sudo scutil --set ComputerName MACMINI
-```
-
-```shell
-sudo scutil --set HostName MACMINI
+sudo scutil --set ComputerName MACMINI && sudo scutil --set HostName MACMINI
 ```
 
 ## Software installation
@@ -40,6 +36,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ## set up ssh agent for Bitwarden
 export SSH_AUTH_SOCK=/Users/$USER/.bitwarden-ssh-agent.sock
 ```
+
+Logout or:
 
 ```shell
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -119,7 +117,7 @@ vim $HOME/.gitconfig
     email = ivan.a.lobanov@gmail.com
 
 [core]
-    autocrlf = input # unix
+    autocrlf = input
     editor = nvim
 
 [alias]
@@ -158,16 +156,16 @@ vim /Users/ivan/.gitconfig-work
     email = ivan.lobanov@solidlab.ru
 
 [core]
-    autocrlf = input # unix
+    autocrlf = input
     editor = nvim
 ```
 
 #### Obsidian vault
 
 ```shell
-mkdir $HOME/personal-vault
+mkdir $HOME/vault-personal && mkdir -p $HOME/solidsoft/vault-solidsoft
 ```
-``
+
 ```shell
-git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-prsnl
+git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 ```
