@@ -164,7 +164,7 @@ vim /Users/ivan/.gitconfig-work
     editor = nvim
 ```
 
-#### Obsidian vault
+#### Obsidian vaults
 
 ```shell
 mkdir $HOME/vault-personal && mkdir -p $HOME/solidsoft/vault-solidsoft
