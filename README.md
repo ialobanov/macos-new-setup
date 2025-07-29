@@ -101,7 +101,7 @@ alias gll='git pull && clear'
 alias gsh='git add . && git commit -m "." && git push && clear'
 alias cle='clear'
 alias bat='bat --theme=TwoDark '
-alias ssv='cd $HOME/solidsoft/vault-solidsoft/ && git add . && git commit -m "." && git push && cd $HOME && clear'
+alias ssv='cd $HOME/solidsoft/vault-solidsoft/ && git add . && git commit -m "work with repository" && git push && cd $HOME && clear'
 alias prv='cd $HOME/vault-personal/ && git add . && git commit -m "." && git push && cd $HOME && clear'
 ```
 
