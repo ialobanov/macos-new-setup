@@ -61,7 +61,7 @@ Logout.
 
 ## Git
 
-gitconfiog.md
+[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/gitconfig.md)
 
 ## Neovim
 
