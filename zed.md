@@ -28,7 +28,8 @@
     "dark": "One Dark"
   },
   "file_types": {
-    "SSH Config": ["ssh_config*"],
+    "Shell Script": ["**/known_hosts*"],
+    "SSH Config": ["**/.ssh/*config*"],
     "Nginx": ["**/solidwall-nginx/**/*"]
   }
 }
