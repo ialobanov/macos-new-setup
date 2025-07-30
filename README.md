@@ -162,7 +162,13 @@ vim /Users/ivan/.gitconfig-work
     editor = nvim
 ```
 
-#### Obsidian vaults
+## Neovim
+
+```shell
+mkdir -p $HOME/.config/nvim && git clone https://github.com/ialobanov/nvim-plain.git $HOME/.config/nvim
+```
+
+## Obsidian vaults
 
 ```shell
 mkdir $HOME/vault-personal && mkdir -p $HOME/solidsoft/vault-solidsoft
