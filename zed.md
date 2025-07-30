@@ -17,6 +17,7 @@
     },
     "play_sound_when_agent_done": true
   },
+  "show_edit_predictions": false,
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "buffer_font_family": "Hack Nerd Font Propo",
@@ -27,7 +28,8 @@
     "dark": "One Dark"
   },
   "file_types": {
-    "SSH Config": ["ssh_config*"]
+    "SSH Config": ["ssh_config*"],
+    "Nginx": ["**/solidwall-nginx/**/*"]
   }
 }
 ```
