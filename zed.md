@@ -1,6 +1,6 @@
 # Configuration
 
-```json
+```jsonc
 // Zed settings
 //
 // For information on how to configure Zed, see the Zed
