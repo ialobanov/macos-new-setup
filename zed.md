@@ -25,6 +25,9 @@
     "mode": "system",
     "light": "One Light",
     "dark": "One Dark"
+  },
+  "file_types": {
+    "SSH Config": ["ssh_config*"]
   }
 }
 ```
