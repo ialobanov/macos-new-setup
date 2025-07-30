@@ -10,6 +10,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-2.5-pro"
+    },
+    "play_sound_when_agent_done": true
+  },
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "buffer_font_family": "Hack Nerd Font Propo",
@@ -20,5 +27,4 @@
     "dark": "One Dark"
   }
 }
-
 ```
