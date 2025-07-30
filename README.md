@@ -57,11 +57,11 @@ Logout.
 
 ## Zsh
 
-[[zsh.md]]
+[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/zsh.md)
 
 ## Git
 
-[[gitconfiog.md]]
+gitconfiog.md
 
 ## Neovim
 
