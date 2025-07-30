@@ -78,3 +78,7 @@ mkdir $HOME/vault-personal && mkdir -p $HOME/solidsoft/vault-solidsoft
 ```shell
 git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 ```
+
+## Starship
+
+[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/starship.md)
