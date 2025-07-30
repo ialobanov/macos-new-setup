@@ -89,8 +89,8 @@ git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 
 ## Zed
 
-[configuration]()
+[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/zed.md)
 
 ## VSCode
 
-[configuration]()
+[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/vscode.md)
