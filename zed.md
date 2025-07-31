@@ -28,7 +28,7 @@
     "dark": "One Dark"
   },
   "file_types": {
-    "Shell Script": ["**/known_hosts*"],
+    "Shell Script": ["**/known_hosts*","**/*.ovpn"],
     "SSH Config": ["**/.ssh/*config*"],
     "Nginx": ["**/solidwall-nginx/**/*"]
   }
