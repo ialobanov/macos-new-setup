@@ -26,14 +26,14 @@ sudo scutil --set ComputerName MACMINI && sudo scutil --set HostName MACMINI
 #### zprofile
 
 ```shell
-fc -p && tee -a $HOME/.zprofile <<EOF
+{ unsetopt HIST_SAVE; tee -a $HOME/.zprofile <<EOF
 ## initialize homebrew environment (for Apple Silicon)
 eval "\$(/opt/homebrew/bin/brew shellenv)"
 
 ## set up ssh agent for Bitwarden
 export SSH_AUTH_SOCK=/Users/$USER/.bitwarden-ssh-agent.sock
 EOF
-exit
+; setopt HIST_SAVE; }
 ```
 
 Logout or:
