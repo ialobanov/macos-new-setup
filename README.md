@@ -82,7 +82,7 @@ git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 
 ## Starship
 
-[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/starship.md)
+[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/starship.md){:target="_blank"}
 
 ## Ghostty
 
