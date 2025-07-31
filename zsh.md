@@ -1,17 +1,17 @@
 # Configuration
 
 ```shell
-sudo chmod go-w /opt/homebrew/share/zsh/site-functions && sudo chmod go-w /opt/homebrew/share && vim $HOME/.zshrc
-```
-
-```shell
 ## initialize external tools
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
 ## history
-SAVEHIST=9000
-HISTSIZE=9999                   # set HISTSIZE > SAVEHIST
+if [ -z "$HISTFILE" ]; then
+  HISTFILE="$HOME/.zsh_history"
+fi
+SAVEHIST=20000
+HISTSIZE=29999                   # set HISTSIZE > SAVEHIST
+HIST_IGNORE_PATTERNS="*<<EOF*"
 setopt EXTENDED_HISTORY         # include timestamp
 setopt HIST_BEEP                # beep if attempting to access a history entry which isn’t there
 setopt HIST_EXPIRE_DUPS_FIRST   # trim dupes first if history is full
@@ -21,6 +21,7 @@ setopt HIST_IGNORE_SPACE        # do not save if line starts with space
 setopt HIST_NO_STORE            # do not save history commands
 setopt HIST_REDUCE_BLANKS       # strip superfluous blanks
 setopt INC_APPEND_HISTORY       # don’t wait for shell to exit to save history lines
+
 
 if type brew &>/dev/null; then
     FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
@@ -44,6 +45,9 @@ alias cle='clear'
 alias bat='bat --theme=TwoDark '
 alias ssv='cd $HOME/solidsoft/vault-solidsoft/ && git add . && git commit -m "Work with repository" && git push && cd $HOME && clear'
 alias prv='cd $HOME/vault-personal/ && git add . && git commit -m "." && git push && cd $HOME && clear'
+
+# Created by `pipx` on 2025-07-29 09:05:37
+export PATH="$PATH:/Users/ivan/.local/bin"
 ```
 
 ```shell
