@@ -1,6 +1,10 @@
 # Configuration
 
 ```shell
+sudo chmod go-w /opt/homebrew/share/zsh/site-functions && sudo chmod go-w /opt/homebrew/share && vim ~/.zshrc
+```
+
+```shell
 ## initialize external tools
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
