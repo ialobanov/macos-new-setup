@@ -23,16 +23,17 @@ sudo scutil --set ComputerName MACMINI && sudo scutil --set HostName MACMINI
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-#### .zprofile
+#### zprofile
 
 ```shell
-tee -a $HOME/.zprofile <<EOF
+fc -p && tee -a $HOME/.zprofile <<EOF
 ## initialize homebrew environment (for Apple Silicon)
 eval "\$(/opt/homebrew/bin/brew shellenv)"
 
 ## set up ssh agent for Bitwarden
 export SSH_AUTH_SOCK=/Users/$USER/.bitwarden-ssh-agent.sock
 EOF
+exit
 ```
 
 Logout or:
