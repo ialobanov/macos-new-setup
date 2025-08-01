@@ -5,11 +5,11 @@ sudo chmod go-w /opt/homebrew/share/zsh/site-functions && sudo chmod go-w /opt/h
 ```
 
 ```shell
-## initialize external tools
+### initialize external tools
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
-## history
+### history
 if [ -z "$HISTFILE" ]; then
   HISTFILE="$HOME/.zsh_history"
 fi
@@ -34,7 +34,7 @@ if type brew &>/dev/null; then
     compinit
 fi
 
-## aliases
+### aliases
 alias vim='nvim'
 alias sudo='sudo '
 alias sp='sudo poweroff'
@@ -49,6 +49,14 @@ alias cle='clear'
 alias bat='bat --theme=TwoDark '
 alias ssv='cd $HOME/solidsoft/vault-solidsoft/ && git add . && git commit -m "Work with repository" && git push && cd $HOME && clear'
 alias prv='cd $HOME/vault-personal/ && git add . && git commit -m "." && git push && cd $HOME && clear'
+
+### functions
+pubhl() {
+  read 'target?user@host: ' && ssh-add -L | grep homelab | ssh "$target" 'mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys'
+}
+pubss() {
+  read 'target?user@host: ' && ssh-add -L | grep 'ivan.lobanov@solidsoft$' | ssh "$target" 'mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys'
+}
 
 # Created by `pipx` on 2025-07-29 09:05:37
 export PATH="$PATH:/Users/ivan/.local/bin"
