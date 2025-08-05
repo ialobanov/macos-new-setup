@@ -1,6 +1,6 @@
 # Configuration
 
-```json
+```jsonwc
 {
   "workbench.startupEditor": "none",
   "editor.fontSize": 18,
