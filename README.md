@@ -90,7 +90,7 @@ git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 
 ## Ghostty
 
-[configuration]()
+[configuration](./ghostty.md)
 
 ## Zed
 
