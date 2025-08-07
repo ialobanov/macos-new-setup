@@ -62,11 +62,11 @@ Logout.
 
 ## Zsh
 
-[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/zsh.md)
+[configuration](./zshrc.md)
 
 ## Git
 
-[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/gitconfig.md)
+[configuration](./gitconfig.md)
 
 ## Neovim
 
@@ -86,7 +86,7 @@ git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 
 ## Starship
 
-[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/starship.md)
+[configuration](./starship.md)
 
 ## Ghostty
 
@@ -94,8 +94,8 @@ git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 
 ## Zed
 
-[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/zed.md)
+[configuration](./zed.md)
 
 ## VSCode
 
-[configuration](https://github.com/ialobanov/macos-new-setup/blob/main/vscode.md)
+[configuration](./vscode.md)
