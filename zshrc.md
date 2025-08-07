@@ -1,6 +1,6 @@
 # Configuration
 
-```shell
+```shell script
 sudo chmod go-w /opt/homebrew/share/zsh/site-functions && sudo chmod go-w /opt/homebrew/share && vim ~/.zshrc
 ```
 
