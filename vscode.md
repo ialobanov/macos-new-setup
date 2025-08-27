@@ -3,8 +3,8 @@
 ```jsonc
 {
   "workbench.startupEditor": "none",
-  "editor.fontSize": 16,
-  "editor.fontFamily": "'Hack Nerd Font Propo', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Hack Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
   "redhat.telemetry.enabled": false,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
@@ -17,10 +17,11 @@
   "ansible.validation.lint.path": "/opt/homebrew/bin/ansible-lint",
   "ansible.python.interpreterPath": "/opt/homebrew/bin/python3",
   "ansible.lightspeed.enabled": false,
-  "workbench.colorTheme": "Default Light Modern",
   "cSpell.enabledFileTypes": {
     "*": false,
     "markdown": true
-  }
+  },
+  "workbench.colorTheme": "Default Light Modern",
+  "remote-explorer.foldersSortOrder": "alphabetical"
 }
 ```
