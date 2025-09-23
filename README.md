@@ -51,7 +51,7 @@ brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop ansible ans
 #### Cask apps
 
 ```shell
-brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask telegram-desktop --cask obsidian --cask thunderbird --cask visual-studio-code
+brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask telegram-desktop --cask obsidian --cask thunderbird --cask visual-studio-code --cask font-zed-mono-nerd-font
 ```
 
 ```shell
