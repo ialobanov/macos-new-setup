@@ -12,7 +12,7 @@ sudo chmod 0440 /etc/sudoers.d/$USER && sudo visudo -c
 ## Hostname
 
 ```shell
-sudo scutil --set ComputerName MACMINI && sudo scutil --set HostName MACMINI
+sudo scutil --set ComputerName Macmini-M4 && sudo scutil --set HostName Macmini-M4
 ```
 
 ## Software installation
