@@ -1,10 +1,10 @@
 # Settings
 
 ```shell
-vim ~/.wezterm
+vim ~/.wezterm.lua
 ```
 
-```yaml
+```lua
 local wezterm = require 'wezterm'
 local mux = wezterm.mux
 local config = wezterm.config_builder()
