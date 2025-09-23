@@ -88,6 +88,10 @@ git clone git@github.com:ialobanov/obsidian-vault.git $HOME/vault-personal
 
 [configuration](./starship.md)
 
+## Wezterm
+
+[configuration](./wezterm.md)
+
 ## Ghostty
 
 [configuration](./ghostty.md)
