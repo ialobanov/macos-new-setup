@@ -6,7 +6,8 @@
 sudo tee /etc/sudoers.d/$USER <<EOF
 $USER ALL=(ALL) NOPASSWD: ALL
 EOF
-sudo chmod 0440 /etc/sudoers.d/$USER && sudo visudo -c
+sudo chmod 0440 /etc/sudoers.d/$USER
+sudo visudo -c
 ```
 
 ## Hostname
