@@ -55,7 +55,7 @@ brew install --quiet --cask bitwarden --cask brave-browser --cask ghostty --cask
 ```
 
 ```shell
-brew install --quiet --cask elmedia-player --cask anydesk --cask stats --cask qbittorrent --cask tunnelblick --cask shottr --cask postman --cask zed --cask eqmac
+brew install --quiet --cask iina --cask anydesk --cask iStat-menus --cask qbittorrent --cask tunnelblick --cask shottr --cask postman
 ```
 
 Logout.
