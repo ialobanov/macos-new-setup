@@ -16,10 +16,43 @@ wezterm.on('gui-startup', function(cmd)
 end)
 
 -- General
-config.font_size = 20 
+config.font_size = 22
 config.line_height = 1.1
 config.font = wezterm.font 'ZedMono Nerd Font Mono'
 config.color_scheme = 'rebecca'
+config.color_schemes = {
+  ['rebecca'] = {
+    ansi = {
+     "#12131e",
+     "#dd7755",
+     "#04dbb5",
+     "#f7c20f",
+     "#7aa5ff",
+     "#bf9cf9",
+     "#56d3c2",
+     "#e4e3e9",
+     },
+     background = "#292a44",
+     brights = {
+      "#666699",
+      "#ff92cd",
+      "#01eac0",
+      "#f7c20f",
+      "#69c0fa",
+      "#c17ff8",
+      "#8bfde1",
+      "#f4f2f9",
+     },
+     cursor_bg = "#D155B1",
+     cursor_border = "#D155B1",
+     cursor_fg = "#292a44",
+     foreground = "#e8e6ed",
+     indexed = {},
+     selection_bg = "#663399",
+     selection_fg = "#f4f2f9",
+     scrollbar_thumb = 'FFC300',
+    },
+}
 
 -- Hide OS panel and disable confirmation for close terminal
 config.window_decorations = "RESIZE"
@@ -28,10 +61,10 @@ config.enable_tab_bar = false
 
 -- Set window paddings
 config.window_padding = {
-  left = 20,
-  right = 20,
-  top = 20,
-  bottom = 20,
+  left = 30,
+  right = 30,
+  top = 30,
+  bottom = 30,
 }
 
 -- Keys bindings
