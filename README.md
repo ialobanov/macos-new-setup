@@ -57,7 +57,7 @@ brew install --quiet --cask bitwarden --cask telegram-desktop --cask obsidian --
 ```
 
 ```shell
-brew install --quiet --cask iina --cask anydesk --cask stats --cask qbittorrent --cask tunnelblick --cask shottr --cask postman
+brew install --quiet --cask iina --cask anydesk --cask stats --cask qbittorrent --cask tunnelblick --cask shottr
 ```
 
 Logout.
