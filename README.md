@@ -13,8 +13,8 @@ sudo visudo -c
 ## Hostname
 
 ```shell
-sudo scutil --set ComputerName macmini-m4
-sudo scutil --set HostName macmini-m4
+sudo scutil --set ComputerName Macmini-m4
+sudo scutil --set HostName Macmini-m4
 ```
 
 ## Software installation
