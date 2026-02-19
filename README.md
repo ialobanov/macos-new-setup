@@ -53,11 +53,11 @@ brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop ansible ans
 #### Cask apps
 
 ```shell
-brew install --quiet --cask bitwarden --cask telegram-desktop --cask obsidian --cask thunderbird --cask visual-studio-code --cask font-zed-mono-nerd-font
+brew install --quiet --cask bitwarden --cask telegram-desktop --cask obsidian --cask thunderbird --cask font-zed-mono-nerd-font
 ```
 
 ```shell
-brew install --quiet --cask iina --cask anydesk --cask stats --cask qbittorrent --cask tunnelblick --cask shottr
+brew install --quiet --cask iina --cask stats --cask qbittorrent --cask tunnelblick --cask shottr
 ```
 
 Logout.
