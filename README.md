@@ -19,13 +19,13 @@ sudo scutil --set HostName Macmini-m4
 
 ## Software installation
 
-#### Brew
+### Brew
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-#### zprofile
+### zprofile
 
 ```shell
 { unsetopt HIST_SAVE; tee -a $HOME/.zprofile <<EOF
@@ -44,20 +44,8 @@ Logout or:
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-#### Terminal apps
+### Terminal apps
 
 ```shell
-brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop ansible ansible-lint
+brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop yazi
 ```
-
-#### Cask apps
-
-```shell
-brew install --quiet --cask bitwarden --cask telegram-desktop --cask obsidian --cask thunderbird --cask font-zed-mono-nerd-font
-```
-
-```shell
-brew install --quiet --cask iina --cask stats --cask qbittorrent --cask tunnelblick --cask shottr
-```
-
-Logout.
