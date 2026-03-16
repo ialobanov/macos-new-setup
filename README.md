@@ -48,5 +48,5 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ### Terminal apps
 
 ```shell
-brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop yazi
+brew install --quiet starship eza bat duf gnu-tar zoxide neovim btop yazi fzf
 ```
