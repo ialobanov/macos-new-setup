@@ -28,13 +28,16 @@ sudo scutil --set HostName Macmini-m4
 ### zprofile
 
 ```shell
-{ unsetopt HIST_SAVE; tee -a $HOME/.zprofile <<'EOF'> /dev/null
+{ unsetopt HIST_SAVE; tee -a $HOME/.zprofile > /dev/null \
+<<'EOF'
 # initialize homebrew environment (for Apple Silicon)
 eval "$(/opt/homebrew/bin/brew shellenv)"
 # set up ssh agent for Bitwarden
-export SSH_AUTH_SOCK=/Users/$USER/.bitwarden-ssh-agent.sock
+export SSH_AUTH_SOCK=/Users/ivan/.bitwarden-ssh-agent.sock
 # editor
 export EDITOR=nvim
+# fzf
+export FZF_DEFAULT_OPTS='--no-height --no-reverse'
 EOF
 ; setopt HIST_SAVE; }
 ```
