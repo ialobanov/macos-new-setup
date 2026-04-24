@@ -13,11 +13,11 @@ sudo visudo -c
 ## Hostname
 
 ```shell
-sudo scutil --set ComputerName Macmini-m4
-sudo scutil --set HostName Macmini-m4
+sudo scutil --set ComputerName Macmini-M4
+sudo scutil --set HostName Macmini-M4
 ```
 
-## Software installation
+## Zsh set up
 
 ### Brew
 
