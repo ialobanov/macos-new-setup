@@ -1,4 +1,4 @@
-# macos-new-setup
+# Set up new MacOS
 
 ## Sudo without password
 
